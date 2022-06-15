@@ -1,0 +1,19 @@
+{
+    "name": "dfytech/weather",
+    "description": "5-day weather forecast for a guest identified only by IP address.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dfytech\\Weather\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M Iftakher Ahammed",
+            "email": "iahammed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
