@@ -3,9 +3,9 @@
 namespace Dfytech\Weather\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use DfyTech\Weather\Http\Requests\IpRequest;
-use DfyTech\Weather\Models\Guest;
-use DfyTech\Weather\Models\GuestWeather;
+use Dfytech\Weather\Http\Requests\IpRequest;
+use Dfytech\Weather\Models\Guest;
+use Dfytech\Weather\Models\GuestWeather;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Arr;
 

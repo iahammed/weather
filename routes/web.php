@@ -1,6 +1,6 @@
 <?php
 
-use DfyTech\Weather\Http\Controllers\WeatherController;
+use Dfytech\Weather\Http\Controllers\WeatherController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('weather', [WeatherController::class, 'index'])->name('weather');
