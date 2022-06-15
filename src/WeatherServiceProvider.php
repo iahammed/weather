@@ -3,7 +3,7 @@
 namespace Dfytech\Weather;
 
 use Illuminate\Support\ServiceProvider;
-use DfyTech\Weather\Console\InstallationCommand;
+use Dfytech\Weather\Console\InstallationCommand;
 
 class WeatherServiceProvider extends ServiceProvider
 {
