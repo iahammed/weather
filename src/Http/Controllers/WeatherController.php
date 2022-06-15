@@ -1,6 +1,6 @@
 <?php
 
-namespace DfyTech\Weather\Http\Controllers;
+namespace Dfytech\Weather\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use DfyTech\Weather\Http\Requests\IpRequest;

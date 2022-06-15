@@ -1,6 +1,6 @@
 <?php
 
-namespace DfyTech\Weather\Console;
+namespace Dfytech\Weather\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;

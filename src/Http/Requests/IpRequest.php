@@ -1,6 +1,6 @@
 <?php
 
-namespace DfyTech\Weather\Http\Requests;
+namespace Dfytech\Weather\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

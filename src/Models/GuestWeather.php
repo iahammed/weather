@@ -1,6 +1,6 @@
 <?php
 
-namespace DfyTech\Weather\Models;
+namespace Dfytech\Weather\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

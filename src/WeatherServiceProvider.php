@@ -1,6 +1,6 @@
 <?php
 
-namespace DfyTech\Weather;
+namespace Dfytech\Weather;
 
 use Illuminate\Support\ServiceProvider;
 use DfyTech\Weather\Console\InstallationCommand;
