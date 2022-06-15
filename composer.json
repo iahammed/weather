@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DfyTech\\Weather\\WeatherServiceProvider"
+                "Dfytech\\Weather\\WeatherServiceProvider"
             ]
         }
     }
