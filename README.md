@@ -27,4 +27,5 @@ $ php artisan vendor:publish --tag=weather
 ## Use
 
 Package is avilable at:
-http://<domin>/weather 
+
+http://localhost/weather 
