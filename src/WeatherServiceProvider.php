@@ -3,7 +3,9 @@
 namespace Dfytech\Weather;
 
 use Illuminate\Support\ServiceProvider;
+use Dfytech\Weather\Helpers\WeatherHelpers;
 use Dfytech\Weather\Console\InstallationCommand;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 
 class WeatherServiceProvider extends ServiceProvider
 {
@@ -20,6 +22,11 @@ class WeatherServiceProvider extends ServiceProvider
 
     public function register()
     {
+        $this->app->bind('Weather', function(){
+            return new WeatherHelpers;
+        });
+
+        $this->app->register(RouteServiceProvider::class);
 
     }
     /**
